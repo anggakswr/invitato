@@ -47,6 +47,7 @@ export default function WelcomingSection() {
   return (
     <div
       className={`section relative translate-y-full overflow-hidden bg-black/40 text-white opacity-0`}
+      // className={`relative overflow-x-hidden bg-black/40 text-white`}
     >
       <div className="relative z-10 flex min-h-screen w-full flex-col items-center justify-between p-10">
         <p className="mb-4 font-bold tracking-widest">WEDDING ANNOUNCEMENT</p>

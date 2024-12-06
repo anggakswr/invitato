@@ -36,7 +36,7 @@ export default function Cover() {
       <div
         className={`relative z-10 bg-black/40 text-white ${opened ? "-translate-y-full" : ""} ${hidden ? "hidden" : ""}`}
       >
-        <div className="flex min-h-screen flex-col items-center justify-between p-10 md:p-20">
+        <div className="flex min-h-screen flex-col items-center justify-between p-10">
           <p className="mb-4 font-bold tracking-widest">WEDDING ANNOUNCEMENT</p>
 
           <div>

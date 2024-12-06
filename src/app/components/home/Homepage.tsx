@@ -7,6 +7,7 @@ import { useCoverStore } from "@/store/useCoverStore";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
+import OpeningSection from "./OpeningSection";
 
 gsap.registerPlugin(useGSAP);
 
@@ -57,12 +58,13 @@ export default function Homepage() {
       </div>
 
       {/* small box */}
-      <div className="fixed right-0 min-h-screen w-full md:w-[500px] md:min-w-[500px]">
+      <div className="fixed inset-y-0 right-0 min-h-screen w-full overflow-y-scroll md:w-[500px] md:min-w-[500px]">
         <Cover />
 
         {opened ? (
-          <div className="relative z-10 overflow-y-scroll">
+          <div className="relative z-10">
             <WelcomingSection />
+            <OpeningSection />
           </div>
         ) : null}
       </div>
