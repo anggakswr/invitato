@@ -22,8 +22,8 @@ export default function OpeningSection() {
         </p>
 
         <motion.p
-          initial={{ y: 100, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
+          initial={{ y: 100 }}
+          whileInView={{ y: 0 }}
           className="mb-6 text-3xl"
         >
           Welcome to
@@ -34,8 +34,8 @@ export default function OpeningSection() {
         </motion.p>
 
         <motion.p
-          initial={{ y: 100, opacity: 0 }}
-          whileInView={{ y: 0, opacity: 1 }}
+          initial={{ y: 100 }}
+          whileInView={{ y: 0 }}
           className="italic"
         >
           Together with joyful hearts and the grace of God, we joyfully announce
