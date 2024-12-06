@@ -4,14 +4,5 @@
 
 * {
   font-family: "Poppins", sans-serif;
-  font-style: normal;
+  @apply duration-1000;
 }
-
-/* .font-butler {
-  font-family: "Butler";
-  src:
-    url("/fonts/Butler-Medium.woff2") format("woff2"),
-    url("/fonts/Butler-Medium.woff") format("woff");
-  font-weight: 500;
-  font-style: normal;
-} */
